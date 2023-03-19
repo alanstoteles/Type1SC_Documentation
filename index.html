@@ -1,0 +1,391 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Type1SC_DM_Documentation</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="http://html5-templates.com/" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="stylesheet" href="style.css">
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<div class="wrapAll clearfix">
+		<div class="sidebar">
+			<div class="logo">
+				<a href="/"><img src='img/murata_logo.png' alt="logo"></a>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="#">Main page</a></li>
+					<!--<li><a href="#">Contents</a></li>-->
+					<!--<li><a href="#">Featured content</a></li>-->
+				</ul>
+				<!--<h3>Interaction</h3>
+				<ul>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portal</a></li>
+				</ul>-->
+				<!--<h3>Interaction</h3>
+				<ul>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portal</a></li>
+				</ul>-->
+			</div>
+
+
+		</div>
+		<div class="mainsection">
+			<div class="headerLinks">
+				<!--<span class="user">Not logged in</span> <a href="#">Talk</a> <a href="#">Contributions</a> <a
+					href="#">Create account</a> <a href="#">Log in</a>-->
+			</div>
+			<div class="tabs clearfix">
+				<div class="tabsLeft">
+					<ul>
+						<li><a href="#" class="active">Beta Version</a></li>
+						<!--<li><a href="#">Talk</a></li>-->
+					</ul>
+				</div>
+				<div id="simpleSearch">
+					<input type="text" name="searchInput" id="searchInput" placeholder="Search Dummy" size="12" />
+					<div id="submitSearch"></div>
+				</div>
+				<div class="tabsRight">
+					<ul>
+						<!--<li><a href="#" class="active">Read</a></li>-->
+						<!--<li><a href="#">View source</a></li>-->
+						<!--<li><a href="#">View history</a></li>-->
+					</ul>
+				</div>
+
+			</div>
+			<div class="article">
+				<h1>Type 1SC (LBAD0XX1SC) </h1>
+				<p class="siteSub">From Murata LPWA CIoT Support Team</p>
+				<!-- <p class="roleNote">This Wiki is about the Type 1SC.</p> -->
+
+				<div class="articleRight">
+					<div class="articleRightInner">
+						<img src="img/product-img_2.jpg" width="200" height="121" alt="Type1SC" />
+					</div>
+					Type 1SC (LBAD0XX1SC) <a href=""></a>
+				</div>
+				<p>The <strong>Type 1SC</strong> (LBAD00XX1SC) module is the world's smallest Cat. M1/NB-IoT module with
+					global certification.
+					It supports GPS/GNSS, OpenMCU, Integrated SIM.</p>
+				<p>This new stand-alone module measures just 11.1 x 11.4 x 1.5 mm (max), constructed in a silver resin
+					shielded package and comprises an Altair ALT1250 transceiver with a FEM module and external flash
+					memory.</p>
+				<p> An integrated TCXO that has robust low drift thermal characteristics provides an accurate clock
+					source for the RF transceiver.</p>
+				<div class="contentsPanel">
+					<div class="contentsHeader">Contents</div>
+					<ul>
+						<li>
+							<span>1</span><a href="#product_specification">Product Specification</a>
+							<ul>
+								<li><span>1.1</span><a href="#general_features">General Features</a></li>
+								<li><span>1.2</span><a href="#block_diagram">Block Diagram</a> </li>
+								<li><span>1.3</span><a href="#integrated_gnss">Integrated GNSS</a></li>
+							</ul>
+						</li>
+						<li><span>2</span><a href="#evaluation_kit">Evaluation Kit</a></li>
+						<li>
+							<span>3</span><a href="#examples">Examples</a>
+							<ul>
+								<li><span>3.1</span><a href="#before_starting">Before Starting</a> </li>
+								<li><span>3.2</span><a href="#network_attachment">Network Attachement</a> </li>
+								<li><span>3.3</span><a href="#udp_client">UDP Client</a> </li>
+								<li><span>3.4</span><a href="#udp_server">UDP Server</a> </li>
+							</ul>
+						</li>
+						<li><span>4</span><a href="#at_command_list">AT Command List</a></li>
+					</ul>
+				</div>
+				<h2 id="product_specification"><strong>Product Specification</strong></h2>
+				<h3 id="general_features">General Features
+				</h3>
+				<table border="1" style="border-collapse: collapse; width: 100%; height: 200px;">
+					<tbody>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Product Type</th>
+							<td style="width: 67.5188%;">Module</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Part Name</th>
+							<td style="width: 67.5188%;">LBAD0XX1SC</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Grade</th>
+							<td style="width: 67.5188%;">Industrial</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Support LTE Band</th>
+							<td style="width: 67.5188%;">Low Bands 5,8,12,13,14(CAT M1 Only),17,18,19,20,26,28<br />Mid
+								Bands 1,2,3,4,25</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Chipset</th>
+							<td style="width: 67.5188%;">Altair ALT1250</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Modulation</th>
+							<td style="width: 67.5188%;">LTE Cat.M1/NB-IoT Release 13 (*Release 14 &ndash; SW Upgrade)
+							</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Antenna</th>
+							<td style="width: 67.5188%;">External (<a
+									href="https://www.murata.com/en-eu/products/connectivitymodule/lpwa/design-development/antenna-support">Find
+									out more</a>)</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">System Clock</th>
+							<td style="width: 67.5188%;">Integrated 26MHz (TCXO) &amp; 32KHz (X'Tal)</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Operating Temp Min</th>
+							<td style="width: 67.5188%;">-40</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Operating Temp Max</th>
+							<td style="width: 67.5188%;">85</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Type Mounting</th>
+							<td style="width: 67.5188%;">LGA</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Type Package</th>
+							<td style="width: 67.5188%;">Resin Mold</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Dimension</th>
+							<td style="width: 67.5188%;">11.1 x 11.4 x 1.5 mm (max)</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Interface Voltage</th>
+							<td style="width: 67.5188%;">1.8v</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Supply Voltage</th>
+							<td style="width: 67.5188%;">2.85-4.35v</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Transmit Power</th>
+							<td style="width: 67.5188%;">+23dBm max</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Power Class</th>
+							<td style="width: 67.5188%;">Optimized for Class 3 LTE output power</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Sleep Mode Current</th>
+							<td style="width: 67.5188%;">eDRX Current Consumption (avg)/LTE-M: 43 uA<br />PSM Current
+								Consumption (avg)/LTE-M: 1.4 uA</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Host Interface</th>
+							<td style="width: 67.5188%;">UART</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">RoHS</th>
+							<td style="width: 67.5188%;">Yes</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Software Features</th>
+							<td style="width: 67.5188%;">AT commands,<br />IPv4/IPv6 stack with TCP and UDP
+								protocol,<br />SSL/TLS,<br />MQTT,<br />OpenMCU(Optional),<br />GPS/GLONASS(Optional),<br />iUICC(Optional)
+							</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Certified</th>
+							<td style="width: 67.5188%;">FCC/IC/RED/TELEC/KC/NCC<br />GCF/PTCRB</td>
+						</tr>
+						<tr>
+							<th style="width: 32.3309%; text-align: left;">Certified Carrier</th>
+							<td style="width: 67.5188%;">AT&amp;T, KT, SKT, Pelion, Deutsch Telekom, Vodafone, Softbank,
+								KDDI, Docomo, Soracom, Truphone&hellip;</td>
+						</tr>
+						<tr>
+							<th rowspan="5" style="width: 32.3309%; text-align: left;">Variants</th>
+							<td style="width: 67.5188%;">
+								<div class="m-link"><a class="m-link_link"
+										href="https://www.murata.com/en-eu/products/connectivitymodule/lpwa/overview/lineup/type-1sc-dm">1SC-DM</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 67.5188%;">
+								<div class="m-link"><a class="m-link_link"
+										href="https://www.murata.com/en-eu/products/connectivitymodule/lpwa/overview/lineup/type-1sc-sm">1SC-SM</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 67.5188%;">*1SC-iUICC</td>
+						</tr>
+						<tr>
+							<td style="width: 67.5188%;">*1SC-GPS/GLONASS</td>
+						</tr>
+						<tr>
+							<td style="width: 67.5188%;">*1SC-Open MCU</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 id="block_diagram">Block Diagram</h3>
+				<div class="articleCenter">
+					<div class="articleRightInner">
+						<img src="img/blockdiagram-img_3.jpg" alt="Type 1SC Block Diargam" />
+					</div>
+					Type 1SC Block Diagram <a href=""></a>
+				</div>
+				<h3 id="integrated_gnss">Integrated GNSS</h3>
+				<p>TDB:</p>
+				<h2 id="evaluation_kit">Evaluation Kit</h2>
+				<p>This Section provides the general operation instructions for the Murata Cat-M1/NB-IoT Evaluation Kit
+					(EVK) based on the evaluation board with printed antenna and headers CN3, 4, 9, 10, 11 installed, as
+					shown below. Please ensure that the board is the correct version prior to using this document. In
+					the ensuing discussion, Murata LTE module refers to the module mounted on the evaluation board, so
+					it could be either Type1SC.
+				</p>
+				<div class="articleCenter">
+					<div class="articleRightInner">
+						<img src="img/Type1SC_EVK_01.PNG" alt="Type 1SC EVK Top />
+					</div>
+					Type 1SC Evaluation Kit Top View<a href=""></a>
+				</div>
+				<p>The EVK is an evaluation and application development kit for the Murata Type1SC and Type1WG LTE
+					modules. It includes an Evaluation Board (EVB) with an Arduino shield interface which allows the EVB
+					to be used across various Arduino based MCU development platforms such as the STM32 Nucleo-64
+					boards.</p>
+				<h2 id=" examples">Examples</h2>
+						<h3 id="before_starting">Before Starting</h3>
+						<p>TBD.</p>
+						<h3 id="network_attachment">Network Attachment</h3>
+						<p>TBD.</p>
+						<h3 id="udp_client">UDP Client</h3>
+						<p>This example access a Murata UDP Echo Server.</p>
+						<table border="1" style="border-collapse: collapse; width: 100%;">
+							<tbody>
+								<tr>
+									<td style="width: 100%;">
+										<p>AT%SOCKETCMD="ALLOCATE",0,"UDP","OPEN","140.112.148.237",7 <br />%SOCKETCMD:1
+											<br />OK
+										</p>
+										<p>AT%SOCKETCMD="SETOPT",1,36000,1 <br />OK</p>
+										<p>AT%SOCKETCMD="ACTIVATE",1 <br />OK</p>
+										<p>AT%SOCKETDATA="SEND",1,13,"48656C6C6F2C20776F726C6421" <br />%SOCKETDATA:1,13
+											<br />OK <br />%SOCKETEV:1,1
+										</p>
+										<p>AT%SOCKETCMD="INFO",1</p>
+										<p>%SOCKETCMD:"ACTIVATED","UDP",,"140.112.148.238",50538,7 <br />OK</p>
+										<p>AT%SOCKETDATA="RECEIVE",1,1500
+											<br />%SOCKETDATA:1,13,0,"48656C6C6F2C20776F726C6421"
+											<br />OK
+										</p>
+										AT%SOCKETCMD="DEACTIVATE",1
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--<p>UDP Client Example</p>-->
+						<h3 id="udp_server">UDP Server</h3>
+						<p>This example shows how to open IPv4 and IPv6 UDP server for listening.</p>
+						<table style="table-layout: fixed; width: 100%" border="1">
+							<tbody>
+								<tr>
+									<td style="word-wrap: break-word" scope="col">
+										<p>AT%SOCKETCMD="ALLOCATE",0,"UDP","LISTEN","0.0.0.0",,12345</p>
+										<p>%SOCKETCMD:1</p>
+										<p>OK</p>
+										<p>AT%SOCKETCMD="ACTIVATE",1 <br />OK</p>
+										<p>%SOCKETEV:1,1</p>
+										<p>AT%SOCKETDATA="RECEIVE",1,1500
+										</p>
+										<p> %SOCKETDATA:1,128,0,"23E47F5619AE155686FC01BC7F3E75B0689C5D5E56D5492812A0EDA6A54FB434341E3F2FC286BE728C4BB34F9300EFE2433864DD0DD0BB3D0861C928DEEEB9AD6BF10D0A8AFF9BF4D764C14DAF69D48AF6C59EAF6A971BBE93ECE00DDD54339482B6CADF58B8FD5AFF056694EDBA0D46CCDF76950D3820F4F1CD4E4EB009A1A1","192.168.2.1",37055
+										</p>
+										<p>OK</p>
+										<p>AT%SOCKETDATA="SEND",1,128,"23E47F5619AE155686FC01BC7F3E75B0689C5D5E56D5492812A0EDA6A54FB434341E3F2FC286BE728C4BB34F9300EFE2433864DD0DD0BB3D0861C928DEEEB9AD6BF10D0A8AFF9BF4D764C14DAF69D48AF6C59EAF6A971BBE93ECE00DDD54339482B6CADF58B8FD5AFF056694EDBA0D46CCDF76950D3820F4F1CD4E4EB009A1A1","192.168.2.1",37055
+										</p>
+										<p>%SOCKETDATA:1,128</p>
+										<p>%SOCKETEV:1,1</p>
+										<p>AT%SOCKETDATA="RECEIVE",1,1500
+										</p>
+										<p> %SOCKETDATA:1,64,0,"8CFC0D1A4BFCF21A500545B0280718DC8067E91E1A2F53C86DF1DECD5FD7058C99D533FBCDF6341C0413E866622ABB9656191835F174E2186B82C2AAF98B31E8","192.168.3.1",41222
+										</p>
+										<p>OK</p>
+										<p>AT%SOCKETDATA="SEND",1,64,"8CFC0D1A4BFCF21A500545B0280718DC8067E91E1A2F53C86DF1DECD5FD7058C99D533FBCDF6341C0413E866622ABB9656191835F174E2186B82C2AAF98B31E8","192.168.3.1",41222
+										</p>
+										</p>%SOCKETDATA:1,64</p>
+										<p>OK</p>
+										<p>AT%SOCKETCMD="DELETE",1</p>
+										<p>OK</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>Server Example</p>
+						<h2 id="at_command_list">AT Command List</h2>
+						<p>TBD.
+						</p>
+
+						<!--<div class="lavenderBox">
+					<div class="header">Panel title</div>
+					<div class="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a> <a
+							href="#">Dolorestitas</a> </div>
+					<div class="linklist">
+						<a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a
+							href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a>
+						<a href="#">Inani zril </a> <a href="#">Forensibus sea </a> <a href="#">Habeo adipisci </a> <a
+							href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem
+						</a><a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a
+							href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a>
+						<a href="#">Inani zril </a> <a href="#">Vel nisl albucius </a> <a href="#">Habeo adipisci </a>
+						<a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+							maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit maiestatis </a>
+					</div>
+
+					<div class="subtitle">Subtitle</div>-->
+					</div>
+
+					<div class="categories">
+						<a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem
+						</a>
+					</div>
+
+				</div>
+				<div class="pagefooter">
+					This page was last edited on 17.03.2023 | Template by <a href="http://html5-templates.com/"
+						target="_blank" rel="nofollow">HTML5 Templates</a> <!-- Please leave this link unchanged -->
+					<div class="footerlinks">
+						<a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a
+							href="#">Cookie statement</a> <a href="#">Developers</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+		<script src="script.js"></script>
+
+
+</body>
+
+</html>
